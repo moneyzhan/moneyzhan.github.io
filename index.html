@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .mypage {
+            display: flex;
+            justify-content: space-around;
+            width: 960px;
+            margin: 10px auto;
+            color: #fff;
+            background-image: url(./004.jpg);
+        }
+
+        .my-message {
+            width: 45%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="mypage">
+        <div class="my-message">
+            <p>姓名：<span>张福钱</span></p>
+            <p>性别：<span>男</span></p>
+            <p>电话：<span>18370894742</span></p>
+            <p>邮箱：<span>2953133909@qq.com</span></p>
+            <div>
+               <p>技能：</p> 
+                <span>js: </span><progress value="70" max="100"></progress><br>
+                <span>css: </span><progress value="90" max="100"></progress><br>
+                <span>node.js: </span><progress value="70" max="100"></progress><br>
+                <span>vue2: </span><progress value="80" max="100"></progress>
+            </div>
+        </div>
+        <div class="my-jobe">
+            <h3>教育背景</h3>
+            <time>2017.09-2021.07</time><span>江西工程学院</span>
+            <p>主修课程: c语言、c#、模电、数电等</p>
+            <h3>工作经验</h3>
+            <p>2021.09工作至今</p>
+        </div>
+    </div>
+</body>
+</html>
